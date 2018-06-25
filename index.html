@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>    
+    function add7(num) {
+      return num + 7;
+    }  
+    console.log(add7(40));
+    
+    function multiply(a, b) {
+      return a * b;
+    }
+    console.log(multiply(30, 34));
+    
+    function capitalize(string) {
+      let rest = string.substring(1, string.length).toLowerCase();
+      let first = string.substring(0,1).toUpperCase();
+      let result = first + rest;
+      return result;
+    }
+    console.log(capitalize("SUPer Lower CaSER"));
+
+    function lastLetter(string) {
+      last = string.substring(string.length - 1, string.length);
+      return last;
+    }
+    console.log(lastLetter("SUPer Lower CaSER"));
+  </script>
+</body>
+</html>
